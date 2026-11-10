@@ -5,14 +5,7 @@ consistent set of financial service groups. It is designed to help teams turn a
 large CSV of unstructured complaint narratives into structured data that can be
 filtered, summarized, and routed for further review.
 
-## The problem
-
-Financial complaints arrive as natural-language descriptions and use product
-labels that vary in wording and frequency. Reading and categorizing every
-complaint manually does not scale, while the original CFPB product taxonomy also
-contains closely related and heavily imbalanced categories.
-
-This project addresses that problem by:
+Project Approach:
 
 - consolidating related CFPB product labels into 11 broader groups;
 - comparing a TF-IDF/logistic-regression baseline with a fine-tuned DistilBERT
